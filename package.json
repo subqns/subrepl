@@ -1,11 +1,9 @@
 {
-  "name": "subrepl",
-  "version": "2.0.11",
+  "name": "@btwiuse/subrepl",
+  "version": "0.0.1",
   "description": "Substrate Node Repl with Documentation",
-  "main": "./bin/subrepl",
-  "bin": {
-    "subrepl": "./bin/subrepl"
-  },
+  "main": "index.js",
+  "bin": "index.js",
   "dependencies": {
     "@btwiuse/repl.history": "^0.1.4",
     "chalk": "^2.3.2",
@@ -38,12 +36,13 @@
     "node": ">=8.11.1"
   },
   "keywords": [
+    "substrate",
     "node.js",
     "documentation",
     "repl"
   ],
   "author": {
-    "name": "Alex Ramsdell"
+    "name": "btwiuse"
   },
   "license": "MIT"
 }

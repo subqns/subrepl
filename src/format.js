@@ -17,7 +17,7 @@ function progInfo(packageInfo) {
 
     const info = {
         ' Node.js version ': process.version,
-        ' node-help version ': packageInfo.version,
+        ' subrepl version ': packageInfo.version,
         ' Github ': chalk.green(packageInfo.repository.url),
         ' Author ': chalk.green(packageInfo.author.name),
         ' License ': chalk.green(packageInfo.license)

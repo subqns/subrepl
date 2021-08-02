@@ -5,13 +5,13 @@ const path = require('path');
 const chalk = require('chalk');
 const { homedir } = require('os');
 
-const { clear, flagThrown } = require(path.join(__dirname,'..','src','utils'));
-const { progInfo } = require(path.join(__dirname, '..','src','format'));
-const nodeHelp = require(path.join(__dirname, '..', 'src'));
+const { clear, flagThrown } = require(path.join(__dirname, 'src', 'utils'));
+const { progInfo } = require(path.join(__dirname, 'src', 'format'));
+const nodeHelp = require(path.join(__dirname, 'src'));
 const args = process.argv.slice(2);
 
 const helpText = `
-${chalk.green('node-help')} [options]
+${chalk.green('subrepl')} [options]
 
 ${chalk.blue('Options')}:
   -i, --info        Output Information about node-help and exit

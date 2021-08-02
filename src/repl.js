@@ -44,9 +44,9 @@ function start(dataTree, options) {
 
     cacheTopicNames();
 
-    const historyFile = path.join(homedir(),'.node_repl_history');
+    const historyFile = path.join(homedir(),'.subrepl_history');
     const nr = repl.start({ 
-        prompt: options.prompt || `${ chalk.green('node-help') } > `,
+        prompt: options.prompt || `${ chalk.green('subrepl') } > `,
         eval: mkEval(dataTree), 
         ignoreUndefined: true, 
         useGlobal: true,

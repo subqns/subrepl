@@ -1,27 +1,27 @@
-# node-help
+# @btwiuse/subrepl
 
-[![Known Vulnerabilities](https://snyk.io/test/github/foundling/node-help/badge.svg?targetFile=package.json)](https://snyk.io/test/github/foundling/node-help?targetFile=package.json)
-[![Build Status](https://travis-ci.org/foundling/node-help.svg?branch=master)](https://travis-ci.org/foundling/node-help)
+[![Known Vulnerabilities](https://snyk.io/test/github/subqns/subrepl/badge.svg?targetFile=package.json)](https://snyk.io/test/github/subqns/subrepl?targetFile=package.json)
+[![Build Status](https://travis-ci.org/subqns/subrepl.svg?branch=master)](https://travis-ci.org/subqns/subrepl)
 
-Offline documentation for your Node REPL.
+Substrate Node REPL with Documentation.
 
-### Installing, Uninstalling and Updating `node-help`
+### Installing, Uninstalling and Updating `subrepl`
 
-To install `node-help`, run: 
-
-````
-npm install -g node-help
-````
-
-To uninstall `node-help`, run: 
+To install `subrepl`, run:
 
 ````
-npm uninstall -g node-help
+npm install -g @btwiuse/subrepl
 ````
 
-To update `node-help` to the latest published version, run:
+To uninstall `subrepl`, run:
+
 ````
-npm update -g node-help
+npm uninstall -g @btwiuse/subrepl
+````
+
+To update `subrepl` to the latest published version, run:
+````
+npm update -g @btwiuse/subrepl
 ````
 
 ### API
@@ -43,9 +43,9 @@ npm update -g node-help
 
 ### Features
 
-`node-help` is a custom Node.js REPL inspired by iPython that lets you append a question mark to any valid JavaScript token to get information about it.
+`subrepl` is a custom Node.js REPL inspired by iPython that lets you append a question mark to any valid JavaScript token to get information about it.
 
-- Documentation for un-aliased built-in lookups, e.g. `node-help > process.env?`.
+- Documentation for un-aliased built-in lookups, e.g. `subrepl > process.env?`.
 - Basic Native JavaScript introspection support displaying objects' valueOf(), toString(), method and property values.
 - Colorized short-and-longform documentation
     + short-form docs are accessed with an appended `?` and are rendered in colorized plain text 
@@ -129,7 +129,7 @@ By running `.docs http2`, for example, you can read long-form documentation on t
 ### Use the `?` to search the Node API (shorter-form)
 
 ````javascript
-node-help > process?
+subrepl > process?
 
 [ 2 Result(s) for Node.js. ]
 
@@ -185,10 +185,10 @@ _tickCallback                       getuid                              setuid
 abort                               hasUncaughtExceptionCaptureCallback umask                               
 assert                              hrtime                              uptime                              
 
-node-help >
+subrepl >
 
 ````
 
 ### Contributions
 
-See [Contributing](https://github.com/foundling/node-help/blob/master/CONTRIBUTING.md). The search algorithm for `node-help` is not perfect so there will be bugs.  Please feel free to raise issues on the [github issues page](https://github.com/foundling/node-help/issues).
+See [Contributing](https://github.com/subqns/subrepl/blob/master/CONTRIBUTING.md). The search algorithm for `subrepl` is not perfect so there will be bugs.  Please feel free to raise issues on the [github issues page](https://github.com/subqns/subrepl/issues).
