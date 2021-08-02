@@ -1,7 +1,7 @@
 const chalk = require('chalk');
 const path = require('path');
 const repl = require('repl');
-const replHistory = require('repl.history');
+const replHistory = require('@btwiuse/repl.history');
 const touch = require('touch');
 const vm = require('vm');
 const { homedir } = require('os');

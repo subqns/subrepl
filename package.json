@@ -1,19 +1,19 @@
 {
-  "name": "node-help",
+  "name": "subrepl",
   "version": "2.0.11",
-  "description": "Offline documentation for the Node Repl",
-  "main": "./bin/node-help",
+  "description": "Substrate Node Repl with Documentation",
+  "main": "./bin/subrepl",
   "bin": {
-    "node-help": "./bin/node-help"
+    "subrepl": "./bin/subrepl"
   },
   "dependencies": {
+    "@btwiuse/repl.history": "^0.1.4",
     "chalk": "^2.3.2",
     "cheerio": "^1.0.0-rc.2",
     "html-entities": "^1.2.1",
     "marked": "^0.6.2",
     "marked-terminal": "^2.0.0",
     "mkdirp": "^0.5.1",
-    "repl.history": "^0.1.4",
     "request": "^2.87.0",
     "strip-html-comments": "^1.0.0",
     "striptags": "^3.1.1",
@@ -25,14 +25,14 @@
   },
   "scripts": {
     "test": "tape ./test/*test.js | colortape",
-    "postinstall": "node-help --update --no-run"
+    "postinstall": "subrepl --update --no-run"
   },
   "repository": {
     "type": "git",
-    "url": "github.com/foundling/node-help"
+    "url": "github.com/subqns/subrepl"
   },
   "bugs": {
-    "url": "https://github.com/foundling/node-help/issues"
+    "url": "https://github.com/subqns/subrepl/issues"
   },
   "engines": {
     "node": ">=8.11.1"
